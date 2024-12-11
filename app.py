@@ -20,7 +20,7 @@ def download_video():
 
 root = tk.Tk()
 root.title("YouTube Video Downloader")
-root.geometry("400x200")
+root.geometry("400x100")
 
 url_label = tk.Label(root, text="Enter YouTube Video URL:")
 url_label.pack()
